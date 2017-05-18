@@ -1,0 +1,87 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+  </head>
+  <body>
+
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li class="menu-text">Yeti Agency</li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="#">One</a></li>
+          <li><a href="#">Two</a></li>
+          <li><a href="#">Three</a></li>
+          <li><a href="#">Four</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End Top Bar -->
+
+
+    <div class="row pt-30" id="content">
+      <div class="medium-8 columns">
+        <div class="blog-post">
+          <h3>Awesome blog post title <small>3/6/2015</small></h3>
+          <img class="thumbnail" src="http://placehold.it/850x350">
+          <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+          <div class="callout">
+            <ul class="menu simple">
+              <li><a href="#">Author: Mike Mikers</a></li>
+              <li><a href="#">Comments: 3</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Columna derecha -->
+      <div class="medium-3 columns" data-sticky-container>
+        <div class="sticky" data-sticky data-anchor="content">
+          <ul class="accordion" data-accordion data-multi-expand="true">
+            <li class="accordion-item is-active" data-accordion-item>
+              <div class="accordion-content" data-tab-content>
+                <p>Panel 1. Lorem ipsum dolor</p>
+                <a href="#">Nowhere to Go</a>
+              </div>
+              <!-- Accordion tab title -->
+              <a href="#" class="accordion-title">Accordion 1</a>
+
+              <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+              <div class="accordion-content" data-tab-content>
+                <p>Panel 1. Lorem ipsum dolor</p>
+                <a href="#">Nowhere to Go</a>
+              </div>
+            </li>
+            <li class="accordion-item" data-accordion-item="">
+              <a href="#" class="accordion-title" aria-controls="g5ymoi-accordion" role="tab" id="g5ymoi-accordion-label" aria-expanded="false" aria-selected="false">Accordion 2</a>
+              <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="g5ymoi-accordion-label" aria-hidden="true" id="g5ymoi-accordion">
+                Panel 2. Lorem ipsum dolor
+              </div>
+            </li>
+            <!-- ... -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="assets/js/vendor/jquery.js"></script>
+    <!-- this will include every plugin and utility required by Foundation -->
+    <script src="assets/js/vendor/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+  </body>
+</html>
