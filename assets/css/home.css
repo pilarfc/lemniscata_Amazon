@@ -34,10 +34,11 @@ body{
 	width: 100%;
 	height: 200px;
 }
-.descripcion-texto{ 
+.descripcion-texto{
 	padding-top: 5%;
  }
 /*fin de la seccion de productos*/
 
-
-
+.pt-30 {
+  padding-top: 30px;
+}
