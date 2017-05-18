@@ -16,20 +16,23 @@ body{
     color: gray;
 }
 /*clases de la seccion de productos*/
-#texto-productos{
+.texto-productos{
+	margin-top: 2%;
 	font-weight: bold;
 }
 .contenedor-productos{
 	width: 80%;
 	margin-left: 3%;
 }
+.imagenes-centradas{
+	border: none;
+	margin-left: 5%;
+}
 .imagen-productos{
 	width: 100%;
 	height: 200px;
 }
-.descripcion-texto{
-	position: relative;
-	display: inline-block;
-}
-
+.descripcion-texto{ 
+	padding-top: 5%;
+ }
 /*fin de la seccion de productos*/
