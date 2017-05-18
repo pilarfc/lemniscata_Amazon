@@ -1,7 +1,6 @@
-.orbit-previous {
-    color: gray;
+.orbit-container {
+  height: 300px;
 }
-
-.orbit-next {
+.orbit-previous, .orbit-next {
     color: gray;
 }
