@@ -5,15 +5,17 @@ body{
 	width: 100%;
 	height: 100%;
 }
-.orbit-previous {
-    color: gray;
- }
+
 .orbit-container {
   height: 300px;
 
 }
 .orbit-previous, .orbit-next {
     color: gray;
+}
+
+#tele div img {
+  width: 100%;
 }
 /*clases de la seccion de productos*/
 #texto-productos{
@@ -33,3 +35,4 @@ body{
 }
 
 /*fin de la seccion de productos*/
+>>>>>>> eli/master
