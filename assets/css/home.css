@@ -4,3 +4,6 @@
 .orbit-previous, .orbit-next {
     color: gray;
 }
+#tele div img {
+  width: 100%;
+}
