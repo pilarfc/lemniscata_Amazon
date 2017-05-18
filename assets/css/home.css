@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 	margin: 0;
 	padding: 0;
@@ -6,9 +7,12 @@ body{
 }
 .orbit-previous {
     color: gray;
+=======
+.orbit-container {
+  height: 300px;
+>>>>>>> upstream/master
 }
-
-.orbit-next {
+.orbit-previous, .orbit-next {
     color: gray;
 }
 /*clases de la seccion de productos*/
