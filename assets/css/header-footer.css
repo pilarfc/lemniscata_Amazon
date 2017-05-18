@@ -1,0 +1,47 @@
+
+#imagenSearch {
+    width: 9%;
+    height: 9%;
+}
+
+#imagenFrida {
+    width: 160%;
+    height: 100%;
+}
+
+header {
+    background-color: #232F3E;
+}
+
+.acomodo {
+    display: inline;
+}
+
+#contenedorSearch {
+    margin-top: 4%;
+    border-color: orange;
+}
+
+.top-bar {
+  background: none;
+}
+.top-bar input {
+    width: 330px;
+}
+
+#botonIdentificarse {
+    background-color: orange;
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+#textoBotonIdentificarse {
+    font-size: 0.6em;
+    text-align: center;
+}
+
+.nav-list-size {
+    width: 100%;
+    height: 100%;
+}
