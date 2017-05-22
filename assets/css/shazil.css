@@ -1,0 +1,102 @@
+.letraNaranja{
+    color:indianred;
+    font-size: 13px;
+    font-weight: 600;
+}
+.letraNaranjaPequena{
+    color:indianred;
+}
+.letraGris{
+    color:darkgrey;
+    font-size: 10px;
+}
+.parrafo1{
+    font-size: 10px;
+}
+.tamano{
+    width: 100%;
+}
+.estrellita{
+    width:100px;
+    height: 50px;
+    padding-top: 15px;
+}
+.letraAzul{
+    color:blue;
+    padding-left: 0;
+}
+.letraPequena2{
+    font-size: 13px;
+}
+.letraPequena1{
+    font-size: 10px;
+}
+.acomodar{
+    display: inline;
+}
+.noFloat{
+    float:left;
+}
+.quitarPad{
+    padding: 0;
+}
+.posicision{
+    float:none;
+    display: block;
+}
+.quitarMargen{
+    margin-left: 0;
+    margin-right: 0;
+}
+alinearDer{
+    text-align: left;
+}
+.margenDer{
+    padding-left: 20px;
+}
+.margenIzq{
+    margin-right: 20px;
+}
+.espacioAbajoChico{
+    margin-top: 0px;
+}
+.ponerfloat{
+    float:right;
+}
+.agregarMargen{
+    margin-left: 110px;
+}
+.agregarMargen2{
+    margin-left: 95px;
+}
+.margenesArribayAbajo{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.altura{
+    height: 90px;
+}
+.espacio{
+    padding-left: 10px;
+}
+.altura2{
+    height: 110px;
+    width: 100px;
+}
+.margenDerIzqPequeno{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.espacioDer{
+    margin-left: 10px;
+}
+.espacioAbajo{
+    margin-bottom: 10px;
+}
+.anchura{
+    max-width: 400px;
+}
+.imagen4{
+    width: 40px;
+    height: 40px;
+}
