@@ -41,4 +41,91 @@ body{
 
 .pt-30 {
   padding-top: 30px;
+	font-size: 80%;
+}
+
+#carrito {
+  margin-bottom: 0;
+}
+
+.gris {
+	color: gray;
+	font-weight: 700;
+}
+
+.verde {
+	color: green;
+	font-weight: 600;
+}
+
+.rojo {
+	color: red;
+	font-weight: 600;
+	margin-left: 12%;
+}
+
+#imgCarrito {
+	width: 12%;
+}
+
+#imgCarrito img {
+	width: 100%;
+}
+
+.prodNintendo	p {
+		margin-bottom: 3px;
+}
+
+.prodNintendo	input {
+		margin-bottom: 3px;
+}
+
+.mL-75 {
+	margin-left: 75%;
+	margin-bottom: 0;
+}
+
+.mL-75 + hr {
+	margin-top: 0;
+}
+
+.mL-40 {
+	margin-left: 40%;
+}
+
+.cantidadCompra {
+	width: 7%;
+	height: 8%;
+	margin: 0;
+	margin-left: 10%;
+	padding: 0;
+	display: inline-block;
+}
+
+#subtotal {
+	margin-left: 66%;
+}
+
+.s-bb {
+	font-size: 80%;
+}
+
+.mB-3 {
+	margin-bottom: 3px;
+}
+
+.mL-15 {
+	margin-left: 15px;
+}
+
+.mL-0 {
+	margin-left: 0;
+}
+
+a.button.warning {
+    color: #000;
+}
+
+.negro {
+	color: #000;
 }

@@ -6,6 +6,7 @@
     <title>Foundation | Welcome</title>
     <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
     <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/header-footer.css">
   </head>
   <body>
 
@@ -28,20 +29,51 @@
     <!-- End Top Bar -->
 
 
-    <div class="row pt-30" id="content">
-      <div class="medium-8 columns">
-        <div class="blog-post">
-          <h3>Awesome blog post title <small>3/6/2015</small></h3>
-          <img class="thumbnail" src="http://placehold.it/850x350">
-          <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-          <div class="callout">
-            <ul class="menu simple">
-              <li><a href="#">Author: Mike Mikers</a></li>
-              <li><a href="#">Comments: 3</a></li>
-            </ul>
+    <div class="pt-30" id="content">
+      <div class="medium-9 columns" id="artCompra">
+        <h4>Carrito</h4>
+        <p class="mL-75"> Precio <span class="mL-40">Cantidad</span></p>
+        <hr>
+        <div class="media-object stack-for-small prodNintendo">
+          <div class="media-object-section" id="imgCarrito">
+            <img class="thumbnail" src="assets/image/amazon-dummy-busqueda.jpg">
+          </div>
+          <div class="media-object-section">
+            <a>Nintendo Switch - Consolola color gris, - Edición Estandar - Standard Edition </a>
+            <span>de Nintendo</span>
+            <span class="rojo">$9,449.10 </span>
+            <input class="cantidadCompra" type="number" value="1">
+            <p class="gris">Videojuego</p>
+            <p class="verde">Disponible</p>
+            <input type="checkbox"><span> Es un regalo</span>
+            <p><a href="#">Eliminar </a> | <a href="#"> Guardar para más tarde</a></p>
           </div>
         </div>
-
+        <!-- Producto 2 -->
+        <hr>
+        <div class="media-object stack-for-small prodNintendo">
+          <div class="media-object-section" id="imgCarrito">
+            <img class="thumbnail" src="assets/image/amazon-dummy-busqueda.jpg">
+          </div>
+          <div class="media-object-section">
+            <a>Nintendo Switch - Consolola color gris, - Edición Estandar - Standard Edition </a>
+            <span>de Nintendo</span>
+            <span class="rojo">$9,449.10 </span>
+            <input class="cantidadCompra" type="number" value="1">
+            <p class="gris">Videojuego</p>
+            <p class="verde">Disponible</p>
+            <input type="checkbox"><span> Es un regalo</span>
+            <p><a href="#">Eliminar </a> | <a href="#"> Guardar para más tarde</a></p>
+          </div>
+        </div>
+        <hr>
+        <h6 id="subtotal"><strong>Subtotal (2 productos):<span class="rojo">$18,898.20 </span></strong></h6>
+        <p class="s-bb">
+          El precio y la disponibilidad de los productos de lemniscatas_Amazon.com estan
+          sujetos a cambios. En el carrito de comprass puedes dejar temporalmente los
+          productos que quieras. Aparecerá el precio más reciente de cada producto.
+          ¿Tienes una tarjeta de regalo o código promocional? Introducelo antes de realizar el pago.
+        </p>
       </div>
 
       <!-- Columna derecha -->
@@ -50,20 +82,31 @@
           <ul class="accordion" data-accordion data-multi-expand="true">
             <li class="accordion-item is-active" data-accordion-item>
               <div class="accordion-content" data-tab-content>
-                <p>Panel 1. Lorem ipsum dolor</p>
-                <a href="#">Nowhere to Go</a>
+                <p class="verde mB-3">&#10004; Tu pedido es elegible con envío GRATIS</p>
+                <div class="mL-15">
+                  <a class="mB-3" href="#">Comprueba los productos incluidos en la oferta</a>
+                  <p class="mB-3 s-bb">Selecciona eta opción al tramitar el pedido.</p>
+                </div>
               </div>
-              <!-- Accordion tab title -->
-              <a href="#" class="accordion-title">Accordion 1</a>
-
-              <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
-              <div class="accordion-content" data-tab-content>
-                <p>Panel 1. Lorem ipsum dolor</p>
-                <a href="#">Nowhere to Go</a>
+              <div class="callout secondary" id="carrito">
+                <h6>
+                  <strong>Subtotal (2 productos):
+                    <br><span class="rojo mL-0">$18,898.20 </span>
+                  </strong>
+                </h6>
+                <input type="checkbox"><span> Es un regalo</span>
+                <p><a class="button expanded warning" href="#">Proceder al pago</a></p>
+                <hr>
+                <p>
+                  <a href="#">Identifícate</a>
+                  para activar el pedido en 1-Clic.
+                </p>
               </div>
             </li>
             <li class="accordion-item" data-accordion-item="">
-              <a href="#" class="accordion-title" aria-controls="g5ymoi-accordion" role="tab" id="g5ymoi-accordion-label" aria-expanded="false" aria-selected="false">Accordion 2</a>
+              <a href="#" class="accordion-title negro" aria-controls="g5ymoi-accordion" role="tab" id="g5ymoi-accordion-label" aria-expanded="false" aria-selected="false">
+                Calcula tus impuestos y gastos de envío
+              </a>
               <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="g5ymoi-accordion-label" aria-hidden="true" id="g5ymoi-accordion">
                 Panel 2. Lorem ipsum dolor
               </div>
@@ -74,7 +117,116 @@
       </div>
     </div>
 
+    <!-- Footer -->
+    <footer>
+    <a href="#nav-top">
+        <div class="medium-12 columns ancho" id="inicioPagina">
+            <span>Inicio de página</span>
+        </div>
+    </a>
 
+
+    <table cellspacing="0" align="center" role="presentation">
+       <tbody>
+          <tr>
+            <td>
+                <div>Conócenos</div>
+                <ul>
+                    <li><a href="https://www.amazon.jobs/es">Trabajar en Amazon</a></li>
+                    <li><a href="#">Información Corporativa</a></li>
+                    <li><a href="http://www.amazon.com.mx:80/gp/redirect.html/ref=footer_press?_encoding=UTF8&location=http%3A%2F%2Fphx.corporate-ir.net%2Fphoenix.zhtml%3Fc%3D176060%26p%3Dirol-mediaKindle&source=standards&token=F9CAD8A11D4336B5E0B3C3B089FA066D0A467C1C">Departamento de prensa</a></li>
+                    <li>.</li>
+                </ul>
+            </td>
+
+              <td></td>
+
+              <td>
+                <div>Gana dinero con nosotros</div>
+                <ul>
+                    <li><a href="#">Invita y Gana $150</a></li>
+                    <li><a href="#">Vender en Amazon</a></li>
+                    <li><a href="https://kdp.amazon.com">Publica tu libro en Kindle</a></li>
+                    <li><a href="#">Programa de afiliados</a></li>
+                </ul>
+            </td>
+
+             <td></td>
+
+
+             <td>
+                <div>Podemos ayudarte</div>
+                <ul>
+                    <li><a href="#">Devolver o reemplazar productos</a></li>
+                    <li><a href="#">Amazon Prime</a></li>
+                    <li><a href="#">Gestionar contenido y dispositivos</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+            </td>
+
+             <td></td>
+
+              <td>
+                <div>Métodos de pago</div>
+                <ul>
+                    <li><a href="#">Tarjetas de crédito y débito</a></li>
+                    <li><a href="#">Tarjetas de regalo</a></li>
+                    <li><a href="#">Meses sin intereses</a></li>
+                    <li>.</li>
+                </ul>
+            </td>
+          </tr>
+       </tbody>
+    </table>
+
+
+        <div id="logoFooter">
+            <a href="#">
+                <img src="assets/image/amazon.png">
+            </a>
+        </div>
+
+   <div class="paises row">
+     <ul class="medium-9 columns">
+       <li class='nav_first'><a href='https://www.amazon.com.au/ref=footer_au' class='nav_a'>Australia |</a></li>
+       <li><a href='https://www.amazon.de/ref=footer_de'>Alemania |</a></li>
+       <li><a href='https://www.amazon.com.br/ref=footer_br'>Brasil |</a></li>
+       <li><a href='https://www.amazon.ca/ref=footer_ca'>Canadá |</a></li>
+       <li><a href='https://www.amazon.cn/ref=footer_cn'>China |</a></li>
+       <li><a href='https://www.amazon.es/ref=footer_es'>España |</a></li>
+       <li><a href='https://www.amazon.com/ref=footer_us'>Estados Unidos |</a></li>
+       <li><a href='https://www.amazon.fr/ref=footer_fr'>Francia |</a></li>
+       <li><a href='https://www.amazon.in/ref=footer_in'>India |</a></li>
+       <li><a href='https://www.amazon.it/ref=footer_it'>Italia |</a></li>
+       <li><a href='https://www.amazon.co.jp/ref=footer_jp'>Japón |</a></li>
+       <li><a href='https://www.amazon.nl/ref=footer_nl'>Países Bajos |</a></li>
+       <li class='nav_last'><a href='https://www.amazon.co.uk/ref=footer_uk'>Reino Unido</a></li>
+    </ul>
+
+    <span class="medium-3 columns">Y también:
+     <a href='https://aws.amazon.com/es/what-is-cloud-computing/?sc_channel=EL&amp;sc_campaign=MX_amazonfooter'>Amazon Web Services</a></span>
+    </div>
+
+    <div class="row">
+      <ul class="medium-12 columns copyright">
+        <li><a href='#'>Condiciones de uso |</a></li>
+        <li><a href='#'>Aviso de privacidad</a></li>
+        <li>© 1996-2017, Amazon.com, Inc. o afiliados. Todos los derechos reservados.</li>
+        </ul>
+    </div>
+
+
+    <!--<div class="row column">
+      <hr>
+      <ul class="menu">
+        <li>Yeti Store</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="float-right">Copyright 2016</li>
+      </ul>
+    </div>-->
+  </footer>
 
     <script src="assets/js/vendor/jquery.js"></script>
     <!-- this will include every plugin and utility required by Foundation -->
