@@ -102,9 +102,29 @@ body{
 }
 
 #subtotal {
-	margin-left: 72%;
+	margin-left: 66%;
 }
 
 .s-bb {
 	font-size: 80%;
+}
+
+.mB-3 {
+	margin-bottom: 3px;
+}
+
+.mL-15 {
+	margin-left: 15px;
+}
+
+.mL-0 {
+	margin-left: 0;
+}
+
+a.button.warning {
+    color: #000;
+}
+
+.negro {
+	color: #000;
 }
