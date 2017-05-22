@@ -1,16 +1,18 @@
 .letraMenu{
-  font-size: .5vw !important;
+  font-size: .6vw !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1vw;
 }
 
 .efecto img:hover{
   border: 3px solid  #e47911 !important;
 }
 .prueba{
-  padding: 1% !important;
+  padding: 2% !important;
   display: inline-flex;
   float: none;
-  margin: 0 !important;
-  
+  margin: 0% !important;
 }
 .imgPrevioCentro{
   justify-content: center;
@@ -20,8 +22,19 @@
   display: inline-flex;
 }
 .precio{
-  color:  #e47911;
+  color: #cc4b37;
   font-weight: bold;
   font-size: 1.2vw;
 }
-.disponible
+.disponible{
+  color:green;
+  font-size: 1vw;
+}
+.caracteristicas{
+  padding: 2% !important;
+  float: none;
+  margin: 0% !important;
+}
+.previo hr{
+  margin: 1% 0 !important;
+  }
