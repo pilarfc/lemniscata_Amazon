@@ -1,0 +1,27 @@
+.letraMenu{
+  font-size: .5vw !important;
+}
+
+.efecto img:hover{
+  border: 3px solid  #e47911 !important;
+}
+.prueba{
+  padding: 1% !important;
+  display: inline-flex;
+  float: none;
+  margin: 0 !important;
+  
+}
+.imgPrevioCentro{
+  justify-content: center;
+  align-items: center;
+}
+.orden{
+  display: inline-flex;
+}
+.precio{
+  color:  #e47911;
+  font-weight: bold;
+  font-size: 1.2vw;
+}
+.disponible
