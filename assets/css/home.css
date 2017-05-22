@@ -42,3 +42,7 @@ body{
 .pt-30 {
   padding-top: 30px;
 }
+
+#carrito {
+  margin-bottom: 0;
+}
